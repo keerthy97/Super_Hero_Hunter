@@ -1,0 +1,58 @@
+
+/* -------> CSS for the favourite page <------- */
+
+:root{ 
+    --navbar-light-color: #070866;  
+    --navbar-dark-color: rgb(186, 104, 118); 
+}
+
+[color-scheme="dark"]{ 
+    --navbar-color: var(--navbar-dark-color); 
+}
+
+[color-scheme="light"]{ 
+    --navbar-color: var(--navbar-light-color); 
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.cards-container{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.character-info .btn{ 
+    width: 100%;
+}
+
+.card{
+    background-color: rgb(248, 206, 213);
+    height: 484px;
+    width: 250px;
+    margin: 40px 25px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 5px;
+    z-index: 2;
+    backdrop-filter: blur(3px);
+}
+
+.card img{
+    border-radius: 10px 10px 0 0;
+}
+
+.name{
+    font-size: 20px;
+}
+
+.remove-btn{
+    border-radius: 0 0 10px 10px;
+}
+
+.no-characters{
+    font-size: 40px;
+    color: var(--text-color);
+}
