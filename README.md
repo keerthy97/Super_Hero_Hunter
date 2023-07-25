@@ -1,8 +1,7 @@
 # Superhero Hunter
 
 Superhero Hunter is a web application that allows users to search for superheroes and add them to their favorites list. It utilizes the Marvel Comics API to fetch and display superhero data.
-### [hosted link]
-(https://keerthy97.github.io/Super_Hero_Hunter/)
+### [hosted link] (https://keerthy97.github.io/Super_Hero_Hunter/)
 
 # webpage
 
